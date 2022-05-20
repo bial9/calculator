@@ -1,0 +1,37 @@
+body{
+    background: linear-gradient(to right, #00AAFF, #00FF6C);
+}
+button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: large;
+    background-color:transparent;
+    border-width: 1px;
+    
+}
+.btnc{
+    width: 425%;
+    
+}
+.calculator{
+    padding: 10%;
+    padding-left: 38%;
+    padding-top: 5%;
+
+}
+.inputstyle{
+     width: 207px;
+     height: 30px;
+     border-radius: 10px;
+     margin-bottom: 3%;
+     font-size: 25px;
+     border-width: 1px;
+     background-color: transparent;
+}
+h1{
+    font-size: 45px;
+    font-style: italic;
+    
+    
+}

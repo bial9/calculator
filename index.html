@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="calculator">
+        <h1>Calculator</h1>
+        <input type="text" id="input" class="inputstyle">
+        
+    <table>
+        <tr>
+            <td onclick="value('7')"><button>7</button></td>
+            <td onclick="value('8')"><button>8</button></td>
+            <td onclick="value('9')"><button>9</button></td>
+            <td onclick="value('/')"><button>/</button></td>
+            <!-- <td onclick="clear()"><button>C</button></td> -->
+        </tr>
+        <tr>
+            <td onclick="value('4')"><button>4</button></td>
+            <td onclick="value('5')"><button>5</button></td>
+            <td onclick="value('6')"><button>6</button></td>
+            <td onclick="value('*')"><button>*</button></td>
+ 
+        </tr>
+        <tr>
+            <td onclick="value('1')"><button>1</button></td>
+            <td onclick="value('2')"><button>2</button></td>
+            <td onclick="value('3')"><button>3</button></td>
+            <td onclick="value('-')"><button>-</button></td>
+        </tr>
+        <tr>
+            <td onclick="value('0')"><button>0</button></td>
+            <td onclick="value('.')"><button>.</button></td>
+            <td onclick="value('+')"><button>+</button></td>
+            <td onclick="total()"><button>=</button></td>
+            
+        </tr>
+        <tr>
+            <td onclick="allclear()"><button class="btnc">AC</button></td>
+        </tr>
+    </table>
+</div>
+
+
+</body>
+<script src="app.js"></script>
+</html>
